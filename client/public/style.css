@@ -1,0 +1,30 @@
+
+
+.navbar{
+    background-color: #34495e;
+}
+.sidebar{
+  width: 100%;
+  height: 100vh;
+  background-color: #34495e;
+  position: absolute;
+  margin: 0;
+}
+
+a{
+  color: white;
+}
+
+.card{
+  cursor: pointer;
+  opacity: 0.9;
+  transition: transform 0.2s;
+}
+
+
+
+.card:hover{
+  opacity: 1;
+  transform: scale(1.07);
+
+}
